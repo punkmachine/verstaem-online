@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 450px;
+	height: 650px;
+	position: relative;
+	margin-top: 5px;
+	box-shadow: 10px 10px 5px grey;
+	overflow: hidden;
+}
+
+.brick {
+	color: white;
+	text-align: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px grey;
+	position: absolute;
+	background: radial-gradient(
+		circle at 30% 30%,
+		rgba(255, 255, 255, 1),
+		rgba(120, 120, 120, 1)
+	);
+}
+
+.brick1 {
+	top: 150px;
+	left: 60px;
+}
+
+.brick2 {
+	top: 250px;
+	left: 120px;
+}
+
+.brick3 {
+	top: 350px;
+	left: 180px;
+}
+
+.brick4 {
+	top: 450px;
+	left: 240px;
+}
+
+.brick5 {
+	top: 550px;
+	left: 300px;
+}
+
+.ball {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: radial-gradient(circle at 30% 30%, white, red);
+	position: absolute;
+	animation: ball 9s linear;
+	animation-iteration-count: infinite;
+	top: -30px;
+	left: 15px;
+}
+
+@keyframes ball {
+	7% {
+		top: 120px;
+		left: 65px;
+	}
+
+	12% {
+		top: 90px;
+		left: 90px;
+	}
+
+	16% {
+		top: 220px;
+		left: 125px;
+	}
+
+	20% {
+		top: 190px;
+		left: 150px;
+	}
+
+	23% {
+		top: 320px;
+		left: 185px;
+	}
+
+	26% {
+		top: 290px;
+		left: 210px;
+	}
+
+	31% {
+		top: 420px;
+		left: 245px;
+	}
+
+	34% {
+		top: 400px;
+		left: 280px;
+	}
+
+	39% {
+		top: 520px;
+		left: 305px;
+	}
+
+	42% {
+		top: 500px;
+		left: 340px;
+	}
+
+	47% {
+		top: 620px;
+		left: 360px;
+	}
+
+	50% {
+		top: 560px;
+		left: 420px;
+	}
+
+	55% {
+		top: 620px;
+		left: 360px;
+	}
+
+	58% {
+		top: 590px;
+		left: 305px;
+	}
+
+	63% {
+		top: 620px;
+		left: 250px;
+	}
+
+	66% {
+		top: 595px;
+		left: 200px;
+	}
+
+	71% {
+		top: 620px;
+		left: 155px;
+	}
+
+	74% {
+		top: 605px;
+		left: 115px;
+	}
+
+	77% {
+		top: 620px;
+		left: 80px;
+	}
+
+	80% {
+		top: 615px;
+		left: 50px;
+	}
+
+	83% {
+		top: 620px;
+		left: 25px;
+	}
+
+	89% {
+		top: 617px;
+		left: 20px;
+	}
+
+	100% {
+		top: 620px;
+		left: -30px;
+	}
+}
+
+.ball-2 {
+	background: radial-gradient(circle at 30% 30%, white, blue);
+	animation-delay: 1.5s;
+}
+
+.ball-3 {
+	background: radial-gradient(circle at 30% 30%, white, green);
+	animation-delay: 3s;
+}
+
+.ball-4 {
+	background: radial-gradient(circle at 30% 30%, white, yellow);
+	animation-delay: 4.5s;
+}
+
+.ball-5 {
+	background: radial-gradient(circle at 30% 30%, white, pink);
+	animation-delay: 6s;
+}
+
+.ball-6 {
+	background: radial-gradient(circle at 30% 30%, white, black);
+	animation-delay: 7.5s;
+}
